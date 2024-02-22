@@ -1,0 +1,63 @@
+:root {
+  
+  
+  color: black;
+  background-color: rgba(111,172,79,255);
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.formContainer {
+  width: 360px;
+  background-color: rgb(250, 235, 215);
+  margin: auto;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  padding: 10px;
+}
+.registerForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.formField {
+  margin: 10px 0 10px 0;
+  padding: 15px;
+  font-size: 16px;
+  border: 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.19);
+  font-family: "Roboto", sans-serif;
+}
+
+input {
+  background: #f2f2f2;
+}
+
+button {
+  background-color: rgb(111,172,79);
+  color: white;
+  cursor: pointer;
+  transition: 1s all;
+}
+
+button:hover {
+ background-color: rgb(151, 218, 115);
+ transform: scale(1.05);
+}
+button:disabled {
+  cursor: default;
+}
+
+.successMessage {
+  font-family: "Roboto", sans-serif;
+  background-color: #3f89f8;
+  padding: 15px;
+  color: white;
+}
+
+span {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: red;
+  margin: 5px 0 5px 5px;
+}
