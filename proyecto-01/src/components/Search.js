@@ -27,7 +27,7 @@ export const Search = ({listState, setListState}) => {
         <>
             <div className="search">
                 <h3 className="tittle">Buscador</h3>
-                {noEncontrado === true &&(
+                {(noEncontrado === true &&busqueda.length > 1)&&(
                     <span className='noEncontrado'>no se ha encontrado ninguna coincidencia</span>
                 )}
                 <form>
